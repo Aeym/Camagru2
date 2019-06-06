@@ -1,5 +1,5 @@
 <?php $title = "Camagru";
-ob_start();
+// ob_start();
 ?>
 
 

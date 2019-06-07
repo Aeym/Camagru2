@@ -69,3 +69,8 @@ html, body {
       text-align: left;
     }
   }
+
+  .home {
+    /* width: 100%; */
+    margin: 10vh 10vw 10vh 10vw;
+  }

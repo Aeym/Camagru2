@@ -9,6 +9,18 @@ if(isset($_GET["page"])) {
     else if ($_GET["page"] == "gallery") {
         gallery();
     }
+    else if ($_GET["page"] == "photo") {
+        photo();
+    }
+    else if ($_GET["page"] == "signin") {
+        signin();
+    }
+    else if ($_GET["page"] == "signup") {
+        signup();
+    }
+    else if ($_GET["page"] == "account") {
+        account();
+    }
 } else 
 {
     home();
